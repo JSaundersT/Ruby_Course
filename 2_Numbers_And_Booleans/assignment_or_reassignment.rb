@@ -40,5 +40,5 @@ p e
 f = 2
 p f
 
-f **= 3 #To the power of
+f **= 3 #To the power of 3
 p f
