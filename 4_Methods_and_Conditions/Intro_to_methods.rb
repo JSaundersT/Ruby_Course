@@ -5,3 +5,4 @@ def introduce_myself
 end
 
 introduce_myself()
+introduce_myself #Best practice to not use brackets
