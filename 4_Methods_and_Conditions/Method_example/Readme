@@ -1,0 +1,11 @@
+Example - Convert Military Time (1630) to Standard Time (04:30PM)
+
+ - Isolate first two numbers
+
+ - If first two number are less than or equal to 12, use them as the hour component and identify period as AM
+
+ - If first two numbers are greater than 12, subtract 12 to get the hour component and identify period as PM
+
+ - Isolate last two numbers. Use them to determine the minutes component of final result.
+
+ - Concatenate hour component, a colon, the minutes component and the time period
