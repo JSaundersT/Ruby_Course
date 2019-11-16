@@ -1,5 +1,6 @@
 sentence = "Once upon a time in a land far far away"
 
+#My examle
 def word_count(string)
   array_sentence = string.split(" ")
   new_hash = {}
@@ -9,7 +10,7 @@ end
 
 p word_count(sentence)
 
-
+#Trainers example
 def word_count(string)
   words = string.split(" ")
   count = Hash.new(0)
