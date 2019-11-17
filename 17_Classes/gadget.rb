@@ -1,10 +1,10 @@
 class Gadget
 end
 
-phone = Gadget.new
-laptop = Gadget.new
-microwave = Gadget.new
+shiny = Gadget.new
+flashy = Gadget.new
 
-puts phone
-puts laptop
-puts microwave
+glossy = shiny
+
+p glossy.object_id
+p shiny.object_id
