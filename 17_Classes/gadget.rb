@@ -4,7 +4,7 @@ class Gadget
   attr_reader :production_number
   attr_writer :password
 
-  def initialize #Initialize the original variables
+  def initialize(username, password) #Initialize the original variables
     @username = "User #{rand(1..100)}"
     @password = "topsecret"
     @production_number = "#{("a".."z").to_a.sample}-#{rand(1..999)}"
@@ -15,7 +15,10 @@ class Gadget
   end
 end
 
-phone = Gadget.new #Define new method
+g1 = Gadget.new("rubyfan102", "programming123")
+p g1.username
+p g1.production_number
+g1.password = "blahblahblah"
 
-p phone.username
-p phone.production_number
+g2 = Gadget.new("misterprogrammer", "bestpassever")
+g3 = Gadget.new("sportsfan100", "topsecret")
