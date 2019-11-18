@@ -13,14 +13,23 @@ class Gadget
     @username
   end
 
+  def username=(new_username)
+    @username = new_username
+  end
+
   def production_number
     @production_number
+  end
+
+  def password=(new_password)
+    @password = new_password
   end
 
 end
 
 phone = Gadget.new #Define new method
 
+p phone.username #Displays the new_password
+
+phone.username=("Rubyman")
 p phone.username
-p phone.production_number
-p phone.password
