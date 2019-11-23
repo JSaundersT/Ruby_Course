@@ -9,5 +9,5 @@ capitals = {England: "London", France: "Paris",
 
 capitals.each do |country, capital|
   puts "Querying hash..."
-  p capital
+  puts capital
 end
