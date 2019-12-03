@@ -2,7 +2,7 @@
 puts "Hello\nWorld"
 puts 'Hello\nWorld'
 
-phrase = "Hello World"
+phrase = "Hello World."
 
 puts "#{phrase}"
 puts '#{phrase}'
